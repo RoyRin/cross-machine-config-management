@@ -1,0 +1,46 @@
+# Environment variables
+.env
+.env.*
+!.env.example
+
+# Config files
+config/local/*
+config/production/*
+!config/*/example.*
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+.venv/
+.uv/
+.ruff_cache/
+.mypy_cache/
+.pytest_cache/
+.coverage
+*.egg-info/
+dist/
+build/
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+
+# Secrets
+*.pem
+*.key
+*.cert
+secrets/
+credentials/
